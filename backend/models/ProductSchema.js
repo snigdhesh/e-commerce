@@ -15,7 +15,7 @@ const productSchema = new mongooseSchema({
         maxLength: [5, 'Product price cannot exceed 100 charactres.']
     },
     description: {
-        type: Number,
+        type: String,
         required: [true, 'Please enter product description.']
     },
     rating: {
@@ -41,7 +41,7 @@ const productSchema = new mongooseSchema({
             values: [
                 'Electronics',
                 'Cameras',
-                'Laptop',
+                'Laptops',
                 'Accessories',
                 'Headphones',
                 'Food',
@@ -91,5 +91,6 @@ const productSchema = new mongooseSchema({
     }
 })
 
-const productModel = mongoose.model('productModel', produceSchema);
+//product is our collection name(table name), so make sure it's appropriate.
+const productModel = mongoose.model('product', productSchema);
 module.exports = productModel

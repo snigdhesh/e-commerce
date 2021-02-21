@@ -1,0 +1,78 @@
+[
+    {
+        "name": "product name",
+        "price": "0.00",
+        "description": "Product description",
+        "ratings": 4.5,
+        "images": [
+            {
+                "public_id": "products/sample",
+                "url": "https://res.cloudinary.com/dplw0m7pg/image/upload/v1613845959/sample.jpg"
+            }
+        ],
+        "category": "Electronics",
+        "seller": "Ebay",
+        "stock": 50,
+        "numOfReviews": 32,
+        "reviews": []
+    },
+    {
+        "name": "product name",
+        "price": "0.00",
+        "description": "Product description",
+        "ratings": 4.5,
+        "images": [
+            {
+                "public_id": "products/sample",
+                "url": "https://res.cloudinary.com/dplw0m7pg/image/upload/v1613845959/sample.jpg"
+            }
+        ],
+        "category": "Electronics",
+        "seller": "Ebay",
+        "stock": 50,
+        "numOfReviews": 32,
+        "reviews": []
+    },
+    {
+        "name": "product name",
+        "price": "0.00",
+        "description": "Product description",
+        "ratings": 4.5,
+        "images": [
+            {
+                "public_id": "products/sample",
+                "url": "https://res.cloudinary.com/dplw0m7pg/image/upload/v1613845959/sample.jpg"
+            },
+            {
+                "public_id": "products/sample",
+                "url": "https://res.cloudinary.com/dplw0m7pg/image/upload/v1613845959/sample.jpg"
+            }
+        ],
+        "category": "Electronics",
+        "seller": "Ebay",
+        "stock": 50,
+        "numOfReviews": 32,
+        "reviews": []
+    },
+    {
+        "name": "product name",
+        "price": "0.00",
+        "description": "Product description",
+        "ratings": 4.5,
+        "images": [
+            {
+                "public_id": "products/sample",
+                "url": "https://res.cloudinary.com/dplw0m7pg/image/upload/v1613845959/sample.jpg"
+            },
+            {
+                "public_id": "products/sample",
+                "url": "https://res.cloudinary.com/dplw0m7pg/image/upload/v1613845959/sample.jpg"
+            }
+        ],
+        "category": "Electronics",
+        "seller": "Ebay",
+        "stock": 50,
+        "numOfReviews": 32,
+        "reviews": []
+    }
+]
